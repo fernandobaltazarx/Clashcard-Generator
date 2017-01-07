@@ -1,22 +1,22 @@
 [  
    {  
-      "front":"How long is the Coding Bootcamp at UCLA??",
-      "back":"6 Months"
+      "front":"Do you live on planet Earth?",
+      "back":"correct, we do!"
    },
    {  
-      "front":"What days do the cool class come in??",
-      "back":"Mondays and Wednesdays"
+      "front":"Is the empire state building the pinkest building in the world?",
+      "back":"incorrect."
    },
    {  
-      "front":"Should we get rid of the name selector?",
-      "back":"YES"
+      "front":"Is New York City a country?",
+      "back":"incorrect, it's a city!"
    },
    {  
-      "front":"How many instructors are in the class?",
-      "back":"2"
+      "front":"Were there really 100 presidents in the US?",
+      "back":"incorrect, we've only had less than 50"
    },
    {  
-      "front":"Is this class hard?",
-      "back":"YES"
+      "front":"Do cats meow?",
+      "back":"correct"
    }
 ]
