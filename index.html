@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1.0" name="viewport">
   <title>Clashcard Generator</title>
-
-
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
-  
-
-  <script src="./javascript/logic.js"></script>
-    <script>
-    $(function() { 
-      $('#flashcards').clashcards(); 
-    });
+  <script src="https://code.jquery.com/jquery-2.2.3.js">
   </script>
-
+  <script src="./javascript/logic.js">
+  </script>
+  <script>
+     $(function() { 
+       $('#flashcards').clashcards(); 
+     });
+  </script>
 </head>
-
 <body>
-
   <div id='flashcards'>
     <div id='current-question'></div>
     <div id='current-answer'></div>
     <ul>
       <li>
-        <div class='question'><h1>test</h1></div>
-        <div class='answer'><h5>test</h5></div>
+        <div class='question'>
+          <h1>test</h1>
+        </div>
+        <div class='answer'>
+          <h5>test</h5>
+        </div>
       </li>
       <li>
-        <div class='question'><h1>test2</h1></div>
-        <div class='answer'><h5>test3</h5></div>
+        <div class='question'>
+          <h1>test2</h1>
+        </div>
+        <div class='answer'>
+          <h5>test3</h5>
+        </div>
       </li>
       <li>
-        <div class='question'><h1>_ _ _ _ _ _ _ _ _ test.</h1></div>
-        <div class='answer'><h5>test</h5></div>
+        <div class='question'>
+          <h1>_ _ _ _ _ _ _ _ _ test.</h1>
+        </div>
+        <div class='answer'>
+          <h5>test</h5>
+        </div>
       </li>
-    </ul>
-    <br /><br />
-    <a id='show-answer' href='#'>Show Answer</a>
-    <a id="correct" href="#">Correct</a>
-    <a id="wrong" href="#">Incorrect</a>
-    <br /><br />
-    <a id="wrong" href="#">Next Card</a>
-  </div> 
-
-  </body>
+    </ul><br>
+    <br>
+    <a href='#' id='show-answer'>Show Answer</a> <a href="#" id="correct">Correct</a> <a href="#" id="wrong">Incorrect</a><br>
+    <br>
+    <a href="#" id="wrong">Next Card</a>
+  </div>
+</body>
 </html>
