@@ -1,14 +1,22 @@
 [  
    {  
-      "front":"test?",
-      "back":"test"
+      "front":"How long is the Coding Bootcamp at UCLA??",
+      "back":"6 Months"
    },
    {  
-      "front":"test2?",
-      "back":"test2"
+      "front":"What days do the cool class come in??",
+      "back":"Mondays and Wednesdays"
    },
    {  
-      "front":"_ _ _ _ test.",
-      "back":"test3"
+      "front":"Should we get rid of the name selector?",
+      "back":"YES"
+   },
+   {  
+      "front":"How many instructors are in the class?",
+      "back":"2"
+   },
+   {  
+      "front":"Is this class hard?",
+      "back":"YES"
    }
 ]
